@@ -14,9 +14,9 @@ public class FirstPost {
 
 		List<String> cityList = new ArrayList<>();
 		cityList.add("Berlin");
-		cityList.add("Rome");
+		cityList.add("Roma");
 		cityList.add("Madrid");
-		cityList.add("Vienna");
+		cityList.add("Wien");
 
 		Observable<String> cities = Observable.from(cityList);
 
